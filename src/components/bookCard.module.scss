@@ -1,0 +1,51 @@
+.bookCard, .authorCard{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    text-align: center;
+    margin:38px;
+}
+
+.bookCard:hover{
+    cursor: pointer;
+    box-shadow: 8px 10px 4px lightgray;
+    border: none;
+}
+
+.author-title{
+    padding: 12px 0;
+}
+
+.book-title{
+    padding-bottom: 16px;
+}
+
+@media screen and (max-width: 890px){
+    .listBody{
+        margin: 5px 26px 20px;
+    }
+
+    .authorsList{
+        margin: 25px;
+    }
+
+    .authorCard, .bookCard{
+        margin: 30px;
+    }
+}
+
+@media screen and (max-width: 582px){
+    .authorsList{
+        margin: 16px;
+    }
+    .authorCard, .bookCard{
+        margin: 18px;
+    }
+    .specifier{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 382px){
+    .authorsList{
+        margin: 8px;
+    }
+}

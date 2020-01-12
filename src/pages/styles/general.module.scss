@@ -1,0 +1,70 @@
+.img-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.title-image{
+    width: 85%;
+}
+
+.discover{
+    display: flex;
+    justify-content: center;
+}
+
+.welcome-msg{
+    text-align: center;
+    font-style: oblique;
+    margin: 0;
+}
+
+.discover{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container{
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+
+.linker{
+    color: rgb(58, 55, 55);
+    text-decoration: none;
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 8px 10px 4px lightgray;
+    border: none;
+}
+
+.thumbnail{
+    height: 245px;
+    width: 180px;
+}
+
+h3{
+    padding: 12px 0;
+}
+
+@media screen and (max-width: 700px){
+    .title-image{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 470px){
+    .welcome-msg{
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,16 @@
+.separator{
+    display: flex;
+    flex-direction: row;
+    margin: 0 2rem;
+
+    .section-title{
+        margin: 0 1rem;
+
+    }
+
+    hr{
+        width: 40%;
+        margin: 0 auto;
+        align-self: center;
+    }
+}
